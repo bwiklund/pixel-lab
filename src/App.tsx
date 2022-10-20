@@ -1,10 +1,6 @@
 import React from "react";
-import styled from "@emotion/styled";
-
-const Header = styled.div`
-  color: red;
-`;
+import { Lab } from "./core/Lab";
 
 export function App() {
-  return <Header>Hi</Header>;
+  return <Lab />;
 }
